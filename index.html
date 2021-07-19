@@ -8,13 +8,24 @@
 </head>
 <body>
 
-  <h2>Sobre nós</h2>
-  <img 
-    src="img/everythingIsConnected.jpg" 
-    class="img-responsive" 
-    alt="Tudo está conectado"
-  > <!-- classe img-reponsive ajusta a imagem ao tamanho da tela -->
-  
+  <div class="container">
+    <h2>Sobre nós</h2>
+    <img 
+      src="img/everythingIsConnected.jpg" 
+      class="img-responsive" 
+      alt="Tudo está conectado"
+    > <!-- classe img-reponsive ajusta a imagem ao tamanho da tela -->
+    
+    <h2 data-toggle="collapse" data-target="#first">Desde o século XIX</h2>
+    <!-- data-toggle seta o atributo collapse para dentro da tag data-target -->
+    <p id="first">Adam recria a Sic Mundus, uma sociedade secreta nomeada a partir da frase em latim sic mundus creatus est,
+      seu fundador foi Heinrich Tannhaus, que queria transgredir as leis do tempo-espaço 
+      para trazer sua esposa de volta à vida.
+    </p>
+  </div>
+
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>
