@@ -1,3 +1,14 @@
 #about {
   margin-top: 20px;
 }
+
+footer {
+  background-color: #000000;
+  color: #ffff;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+footer address:last-child {
+  margin-bottom: 0;
+}
