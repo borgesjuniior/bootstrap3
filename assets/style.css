@@ -35,3 +35,7 @@ footer {
 footer address:last-child {
   margin-bottom: 0;
 }
+
+#about {
+  margin-top: 0;
+}
